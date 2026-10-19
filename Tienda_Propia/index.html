@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    #faqAcordeon {
+        --bs-accordion-active-bg: #ffc107;
+        --bs-accordion-active-color: #212529;
+        --bs-accordion-btn-focus-border-color: #ffc107;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 193, 7, .4);
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+</style>
+    <header class="text-bg-warning px-5 py-4">
+        <h1 class="display-2 fw-bold text-Dark">Urban Store</h1>
+        <h2 class="lead bg-dark bg-5 text-white rounded px-4 py-2 d-inline-block"> El mejor estilo para hombre</h2>
+    </header>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-margin-top: 70px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="warning">Ropa Urbana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-container">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#camisetas">camisetas</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#pantalones">pantalones</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#tenis">tenis</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="inicio" class="bg-light py-5">
+        <div class="container py-3">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="badge text-bg-warning mb-2">Amor y Amistad</span>
+                    <h1 class="display-4 bg-dark bg-1 text-white rounded-3 fw-bold shadow-sm px-5 py-2">Vistete con
+                        estilo</h1>
+                    <p class="lead">Dale el mejor regalo al hombre que mas quieres.</p>
+                    <a class="btn btn-warning btn-end" href="#camisetas">Ver productos</a>
+                    <a class="btn btn-outline-dark btn-end" href="#contacto">Contactanos</a>
+                </div>
+                <div class="col-lg=text-center">
+                    <div class="p-2 bg-white rounded-3 shadow-sm">
+                        <h2 class="h4">Oferta de la semana</h2>
+                        <p class="mb-3">Descuentos especiales en accesorios seleccionados.</p>
+                        <span class="badge text-bg-warning">con un 30% menos.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="camisetas" class="pb-5 bg-white">
+        <div class="container">
+            <div class="bg-dark py-3 mb-4 rounded-3">
+                <h2 class="fw-bold text-warning m-0">Camisetas</h2>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/camiseta-negra.jpg" class="card-img-top" alt="Camiseta negra">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Urban Negra</h5>
+                            <p class="card-text">Algodón, corte regular.</p>
+                            <p class="fw-bold">$45.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/camiseta-blanca.jpg" class="card-img-top" alt="Camiseta blanca">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Urban Blanca</h5>
+                            <p class="card-text">Básica y versátil.</p>
+                            <p class="fw-bold">$40.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/camiseta-espectro.jpg" class="card-img-top" alt="Camiseta blanca">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Espectro</h5>
+                            <p class="card-text">Estilo de poliester y algodon de alta calidad.</p>
+                            <p class="fw-bold">$80.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/camiseta-gris.jpg" class="card-img-top" alt="Camiseta blanca">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Urban Gris</h5>
+                            <p class="card-text">Básica y Comoda Para Cualquier ocasion.</p>
+                            <p class="fw-bold">$60.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pantalones" class="pb-5 bg-light">
+        <div class="container">
+            <div class="bg-dark py-3 mb-4 rounded-3">
+                <h2 class="fw-bold text-warning m-0">pantalones</h2>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/pantalon-azul.jpg" class="card-img-top" alt="Jean azul">
+                        <div class="card-body">
+                            <h5 class="card-title">Jean azul</h5>
+                            <p class="card-text">Corte slim.</p>
+                            <p class="fw-bold">$90.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/pantalon-jogger.jpg" class="card-img-top" alt="Jogger">
+                        <div class="card-body">
+                            <h5 class="card-title">Jogger</h5>
+                            <p class="card-text">Cómodo para todos los días.</p>
+                            <p class="fw-bold">$75.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/pantalon-negro.jpg" class="card-img-top" alt="Jean azul">
+                        <div class="card-body">
+                            <h5 class="card-title">Urbano Negro</h5>
+                            <p class="card-text">Para verte estilizado todos los dias.</p>
+                            <p class="fw-bold">$100.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/pantalon-gris.avif" class="card-img-top" alt="Jean azul">
+                        <div class="card-body">
+                            <h5 class="card-title">Overzise Gris Raton.</h5>
+                            <p class="card-text">Corte ancho.</p>
+                            <p class="fw-bold">$120.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="tenis" class="pb-5 bg-white bg-dark py-3 mb-4">
+        <div class="container">
+            <div class="bg-dark py-3 mb-4 rounded-3">
+                <h2 class="fw-bold text-warning m-0">tenis</h2>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/tenis-puma.jpg" class="card-img-top" alt="Tenis urbanos">
+                        <div class="card-body">
+                            <h5 class="card-title">Puma Urbanos drip collection</h5>
+                            <p class="card-text">Suela cómoda y diseño moderno.</p>
+                            <p class="fw-bold">$250.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/tenis-louisv.jpg" class="card-img-top" alt="Tenis blancos">
+                        <div class="card-body">
+                            <h5 class="card-title">Louis Vuitton Engine</h5>
+                            <p class="card-text">Blanco y negro que combinan con todo.</p>
+                            <p class="fw-bold">$200.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/tenis-airforce.jpg" class="card-img-top" alt="Tenis urbanos">
+                        <div class="card-body">
+                            <h5 class="card-title">Air force one Blancas</h5>
+                            <p class="card-text">Combinan con todo, confiabilidad en una compra.</p>
+                            <p class="fw-bold">$150.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/tenis-nike.jpg" class="card-img-top" alt="Tenis urbanos">
+                        <div class="card-body">
+                            <h5 class="card-title">Tenis Urbanos Nike</h5>
+                            <p class="card-text">Negros y callejeros.</p>
+                            <p class="fw-bold">$180.000</p>
+                            <a href="#contacto" class="btn btn-warning">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="preguntas" class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Preguntas frecuentes</h2>
+
+        <div class="accordion" id="faqAcordeon">
+
+            <!-- Pregunta 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq1"
+                            aria-expanded="true" aria-controls="faq1">
+                        ¿Cómo puedo hacer un pedido?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAcordeon">
+                    <div class="accordion-body">
+                        Desde la página web o desde nuestro botón de WhatsApp abajo a la derecha.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq2"
+                            aria-expanded="false" aria-controls="faq2">
+                        ¿Cuánto tarda el envío?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAcordeon">
+                    <div class="accordion-body">
+                        De de 4 a 5 dias habiles.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq3"
+                            aria-expanded="false" aria-controls="faq3">
+                        ¿Puedo consultar antes de comprar?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAcordeon">
+                    <div class="accordion-body">
+                        Claro en nuestro formulario abajo puedes contactarnos.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 4 (NUEVA) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#faq4"
+                            aria-expanded="false" aria-controls="faq4">
+                        ¿Puedo cambiar o devolver una prenda?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAcordeon">
+                    <div class="accordion-body">
+                        Sí, puedes solicitar el cambio dentro de los primeros 8 días, con la prenda sin uso y con su etiqueta.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <section id="contacto" class="py-5 bg-dark text-warning">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold">Contáctanos</h2>
+                    <p class="text-secondary">Déjanos tus datos y cuéntanos qué producto te interesa.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="producto" class="form-label">Producto de interés</label>
+                            <select class="form-select" id="producto" required>
+                                <option value="">Selecciona un producto</option>
+                                <option>Camiseta Espectro</option>
+                                <option>Overzise Gris Raton.</option>
+                                <option>Tenis Urbanos Nike</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4"
+                                placeholder="Escribe tu consulta"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#modalConfirmacion">
+                            Revisar solicitud
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="tituloModal">Sin informacion</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        Este es un ejemplo visual. El formulario todavía no envía información.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
